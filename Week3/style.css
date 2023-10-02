@@ -1,0 +1,63 @@
+body {
+    background-color: pink;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .todoBox {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+
+  .inputField{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  #inputTodo {
+    width: 290px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    background: rgb(215, 211, 211);
+    padding: 10px;
+  }
+
+#pressButton {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.delete-button {
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.list li {
+    cursor: pointer;
+}
